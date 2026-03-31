@@ -1,0 +1,109 @@
+cv:
+  name: "Лев Яковлев"
+  headline: "Frontend-разработчик"
+  email: "y.lev357@gmail.com"
+  phone: "+7 (921) 305-09-00"
+  social_networks:
+    - network: Telegram
+      username: "lsixxxx"
+    - network: GitHub
+      username: "amogus22877769"
+    - network: GitLab
+      username: "amogus22877769"
+
+  sections:
+    Обо мне:
+      - "Заканчиваю 11 класс в информационном классе Президентского физико-математического лицея №239, где углубленно изучаю программирование, алгоритмы и современные технологии разработки по программе, поддерживаемой JetBrains. Основной стек во frontend — React и TypeScript. Слежу за развитием frontend-разработки через Medium и daily.dev, интересуюсь современными подходами к написанию кода, включая использование ИИ-агентов, и привык работать по Kanban."
+
+    Опыт работы:
+      - company: "Rage-org"
+        position: "JavaScript Developer"
+        start_date: "2025-09"
+        end_date: "2025-10"
+        location: "rage-server"
+        highlights:
+          - "Участвовал в разработке командного JavaScript-проекта на платформе Rage:MP / GTA V с готовой production-инфраструктурой и процессами командной разработки."
+          - "Развивал клиентскую часть игрового чата: реализовал антифлуд, подсказку предыдущих сообщений, автофокус, таймер неактивности и улучшения пользовательского взаимодействия."
+          - "Работал с Git в командной разработке, участвовал в интеграции изменений и устранении merge-конфликтов."
+      - company: "МегаФон"
+        position: "Product / Project Lead Intern"
+        start_date: "2025-06-16"
+        end_date: "2025-06-27"
+        summary: "[Сертификат](https://disk.yandex.ru/d/vrY62G6QYwgSew)"
+        highlights:
+          - "Координировал разработку [MergeFetcher](https://gitlab.com/amogus22877769-group/mergefetcher) — Telegram-бота для анализа Merge Requests в GitLab: ставил задачи, распределял их в команде и контролировал выполнение через канбан-доску."
+          - "Участвовал в проектировании структуры данных и технической архитектуры сервиса: бот собирал Merge Requests из GitLab, сохранял их в базу данных и формировал статистику по активности разработчиков."
+          - "Настраивал инфраструктуру проекта: Docker, Docker Compose и GitLab CI/CD; участвовал в интеграции изменений, разрешении merge-конфликтов и итоговой презентации продукта."
+
+    Проекты:
+      - name: "[PieBack](https://github.com/Central-University-IT-prod/2026-final-command-team-5-cashback)"
+        date: "2026-03"
+        summary: "Хакатонный MVP персонализированного кэшбэка с клиентским и административным интерфейсами."
+        highlights:
+          - "Участвовал в разработке frontend на React, TypeScript и Vite для клиентского и административного сценариев продукта."
+          - "Работал с API, тестами и инфраструктурой фронтенда: в проекте использовались React Query, Vitest и Playwright."
+          - "Команда заняла 2 место по кейсу с кэшбэками."
+      - name: "[239FaceSmash](https://github.com/amogus22877769/239FaceSmash)"
+        date: "2025-11"
+        summary: "Telegram Mini App для выбора между учениками школы по внешности и просмотра глобального рейтинга."
+        highlights:
+          - "Разрабатывал frontend на React и TypeScript для Telegram Mini App с пользовательскими сценариями голосования и просмотра рейтинга."
+          - "Добавлял мобильную адаптацию, фильтры, миграцию localStorage и оптимизации загрузки изображений."
+          - "За первую неделю после запуска проектом воспользовались около 700 реальных пользователей."
+      - name: "Dota100HoursBot"
+        start_date: "2025-09"
+        end_date: "present"
+        summary: "Closed-source Python-проект для автоматизации управления несколькими экземплярами Dota 2."
+        highlights:
+          - "Разрабатывал систему автоматизации на Python для управления несколькими sandbox-окружениями, игровыми окнами и сценариями запуска."
+          - "Реализовал координацию server/client-ролей и синхронизацию лобби через собственный сетевой слой для взаимодействия между экземплярами."
+          - "Развивал архитектуру проекта и тестовое покрытие: работал с контроллерами, фикстурами и сценариями проверки поведения кластера."
+
+    Образование:
+      - institution: "Президентский физико-математический лицей №239"
+        area: "Класс с углубленным изучением информатики"
+        start_date: "2022-09"
+        end_date: "present"
+        summary: "Углубленно изучаю программирование, алгоритмы и современные технологии разработки по программе, поддерживаемой JetBrains."
+      - institution: "IT-ПАРК | Онлайн школа программирования"
+        area: "Курс «Разработка сайтов и веб-приложений», модуль по веб-разработке"
+        start_date: "2025-04"
+        end_date: "2025-11"
+      - institution: "Кружок «Web-разработка на Python»"
+        area: "Веб-разработка"
+        start_date: "2024-09"
+        end_date: "2025-05"
+        summary: "Изучал HTML, CSS, JavaScript, React, основы клиент-серверного взаимодействия, git и деплой."
+      - institution: "Т-Банк"
+        area: "Кружок по промышленной frontend-разработке"
+        start_date: "2025-09"
+        end_date: "present"
+        summary: "Изучаю практические темы frontend-разработки: анимации на CSS и JavaScript, Docker, продуктовые метрики и user-flow, безопасность, взаимодействие frontend и backend, WebSocket и Server-Sent Events."
+
+    Навыки:
+      - label: "Frontend"
+        details: "React, TypeScript, JavaScript, HTML, CSS"
+      - label: "UI и формы"
+        details: "Tailwind CSS, shadcn/ui, React Hook Form, Zod, Framer Motion"
+      - label: "State Management"
+        details: "Redux, Zustand, React Query"
+      - label: "Маршрутизация и инструменты"
+        details: "React Router, Vite, Webpack, Git"
+      - label: "AI-инструменты"
+        details: "Codex, Lovable, git worktrees, skills, MCP, AGENTS.md"
+      - label: "Тестирование"
+        details: "Vitest, Playwright"
+      - label: "Дополнительно"
+        details: "Python, Docker, GitLab CI/CD"
+
+design:
+  theme: sb2nov
+  typography:
+    font_size:
+      connections: 8pt
+  header:
+    connections:
+      space_between_connections: 0.1cm
+
+locale:
+  language: russian
